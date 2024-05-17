@@ -1,0 +1,15 @@
+/* **************** MEDIA SCREEN  ***************** */
+@media screen and (max-width: 611px) {
+    nav {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        column-gap: 1rem;
+        row-gap: 1rem;
+    }
+
+    .app {
+        display: flex;
+        flex-direction: column;
+    }
+}
