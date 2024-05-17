@@ -100,11 +100,11 @@ const calcDisplaySummary = function (acc) {
       return int >= 1;
     })
     .reduce((acc, int) => acc + int, 0);
-  labelSumOut.textContent = `${Math.abs(outCome)} EUR`;
+  labelSumOut.textContent = `${Math.abs(outCome)}€`;
   // console.log(outCome);
-  labelSumIn.textContent = `${inCome} EUR`;
+  labelSumIn.textContent = `${inCome}€`;
 
-  labelSumInterest.textContent = `${interest} EUR`;
+  labelSumInterest.textContent = `${interest}€`;
 };
 
 const updateUI = function (acc) {
