@@ -1,8 +1,9 @@
 /* **************** MEDIA SCREEN  ***************** */
 @media screen and (max-width: 611px) {
     nav {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        /* grid-template-columns: repeat(2, 1fr); */
+        flex-direction: column;
         width: 100%;
         column-gap: 1rem;
         row-gap: 1rem;
@@ -11,5 +12,39 @@
     .app {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
+}
+
+@media screen and (max-width: 320px) {
+    .movements__row {
+        padding: 1.25rem 2rem;
+    }
+
+    /* html {
+        font-size: 52.5%;
+    } */
+
+    .summary__value {
+        font-size: 1.2rem;
+        margin-right: 2.0rem;
+      }
+
+      .summary__label {
+        font-size: 1rem;
+        margin-right: 0.7rem;
+      }
+
+      .balance__label {
+        font-size: 2rem;
+      }
+      
+      .balance__date {
+        font-size: 1.3rem;
+      }
+      
+      .balance__value {
+        font-size: 3.4rem;
+        font-weight: 400;
+      }
 }
