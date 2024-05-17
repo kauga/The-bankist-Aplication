@@ -21,6 +21,13 @@
     row-gap: 1.4rem;
   }
 
+  .movements {
+    width: 100%;
+  }
+
+  .operation {
+    padding: 1.4rem 2rem;
+  }
 }
 
 @media screen and (max-width: 320px) {
