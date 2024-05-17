@@ -25,6 +25,12 @@
         font-size: 52.5%;
     } */
 
+    .summary {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 1.4rem;
+    }
+
     .summary__value {
         font-size: 1.2rem;
         margin-right: 2.0rem;
